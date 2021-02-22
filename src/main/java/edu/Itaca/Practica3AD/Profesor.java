@@ -1,23 +1,24 @@
-package edu.Itaca.Practica2AD;
+package edu.Itaca.Practica3AD;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Profesor {
-	public static String CODIGO = "codigo";
+	/*public static String CODIGO = "codigo";
 	public static String NOMBRE = "nombre";
 	public static String APELLIDOS = "apellidos";
 	public static String SEXO = "sexo";
 	public static String FECHANACIMIENTO = "fechaNacimiento";
-	public static String CENTRO = "centro";
+	public static String CENTRO = "centro";*/
 
 	private float codigo;
 	private String nombre;
 	private String apellidos;
-	private String sexo;
 	private String fechaNacimiento;
+	private String sexo;
 	private float centro;
 	private Centro centroProfesor;
-	public List<Asignatura> asignatura;
+	public ArrayList<Asignatura> asignatura;
 
 	public Profesor() {
 	}
@@ -32,7 +33,7 @@ public class Profesor {
 	}
 
 	public Profesor(float codigo, String nombre, String apellidos, String sexo, String fechaNacimiento, float centro,
-			List<Asignatura> asignatura) {
+			ArrayList<Asignatura> asignatura) {
 		this.codigo = codigo;
 		this.nombre = nombre;
 		this.apellidos = apellidos;

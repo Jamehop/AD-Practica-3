@@ -1,10 +1,10 @@
-package edu.Itaca.Practica2AD;
+package edu.Itaca.Practica3AD;
 
 import java.util.List;
 
 public class Asignatura {
-	public static final String CODIGO = "codigo";
-	public static final String NOMBRE = "nombre";
+	/*public static final String CODIGO = "codigo";
+	public static final String NOMBRE = "nombre";*/
 
 	private float codigo;
 	private String nombre;
@@ -17,11 +17,6 @@ public class Asignatura {
 		this.codigo = codigo;
 		this.nombre = nombre;
 	}
-
-	/*
-	 * public Asignatura(float codigo, String nombre, List<String>materia) {
-	 * this.codigo = codigo; this.nombre = nombre; this.materia = materia; }
-	 */
 
 	public float getCodigo() {
 		return codigo;

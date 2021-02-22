@@ -1,18 +1,18 @@
-package edu.Itaca.Practica2AD;
+package edu.Itaca.Practica3AD;
 
 import java.util.List;
 
 public class Centro {
-	public static final String CODIGO = "codigo";
+	/*public static final String CODIGO = "codigo";
 	public static final String NOMBRE = "nombre";
 	public static final String DIRECTOR = "director";
 	public static final String DIRECCION = "direccion";
 	public static final String LOCALIDAD = "localidad";
-	public static final String PROVINCIA = "provincia";
+	public static final String PROVINCIA = "provincia";*/
 
 	private float codigo;
 	private String nombre;
-	private float director;
+	private Profesor director;
 	private String direccion;
 	private String localidad;
 	private String provincia;
@@ -21,7 +21,7 @@ public class Centro {
 	public Centro() {
 	}
 
-	public Centro(float codigo, String nombre, float director, String direccion, String localidad, String provincia) {
+	public Centro(float codigo, String nombre, Profesor director, String direccion, String localidad, String provincia) {
 		this.codigo = codigo;
 		this.nombre = nombre;
 		this.director = director;
@@ -30,12 +30,6 @@ public class Centro {
 		this.provincia = provincia;
 
 	}
-	/*
-	 * public Centro(float codigo, String nombre, float director, String direccion,
-	 * String localidad, String provincia, List<Profesor> profesores) { this
-	 * (codigo, nombre, director, direccion, localidad, provincia); this.profesores
-	 * = profesores; }
-	 */
 
 	public float getCodigo() {
 		return codigo;
@@ -53,11 +47,11 @@ public class Centro {
 		this.nombre = nombre;
 	}
 
-	public float getDirector() {
+	public Profesor getDirector() {
 		return director;
 	}
 
-	public void setDirector(float director) {
+	public void setDirector(Profesor director) {
 		this.director = director;
 	}
 
@@ -89,7 +83,7 @@ public class Centro {
 		return listaProfesores;
 	}
 
-	public void listaProfesores(List<Profesor> listaProfesores) {
+	public void listadeProfesores(List<Profesor> listaProfesores) {
 		this.listaProfesores = listaProfesores;
 	}
 
