@@ -31,7 +31,7 @@ public class Main {
 					"Elige lo que quieres hacer: \n1. Poblar base de datos\n2. Listar todos los centros\n3. Listar todos los profesores"
 							+ "\n4. Listar profesores de un centro\n5. Listar todos los profesores"
 							+ "de un centro cuya fecha de nacimiento sea anterior a 1993\n6. Listar todos los profesores de sexo masculino"
-							+ "que impartan la asignatura de Acceso a Datos\n\n0. Salir");
+							+ "que impartan la asignatura de Acceso a Datos\n7. Comprobar que un profesor ya existe\n\n0. Salir");
 
 			int opcion = Leer.pedirEnteroValidar();
 			while (opcion != 0) {
@@ -108,7 +108,7 @@ public class Main {
 						"Elige lo que quieres hacer: \n1. Poblar base de datos\n2. Listar todos los centros\n3. Listar todos los profesores"
 								+ "\n4. Listar profesores de un centro\n5. Listar todos los profesores"
 								+ "de un centro cuya fecha de nacimiento sea anterior a 1993\n6. Listar todos los profesores de sexo masculino"
-								+ "que impartan la asignatura de Acceso a Datos\n\n0. Salir");
+								+ " que impartan la asignatura de Acceso a Datos\n7. Comprobar que un profesor ya existe\n\n0. Salir");
 				opcion = Leer.pedirEnteroValidar();
 			}
 		} catch (Exception e) {

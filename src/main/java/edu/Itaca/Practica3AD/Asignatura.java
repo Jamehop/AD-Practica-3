@@ -3,8 +3,6 @@ package edu.Itaca.Practica3AD;
 import java.util.List;
 
 public class Asignatura {
-	/*public static final String CODIGO = "codigo";
-	public static final String NOMBRE = "nombre";*/
 
 	private float codigo;
 	private String nombre;

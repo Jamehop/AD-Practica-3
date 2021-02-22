@@ -4,12 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Profesor {
-	/*public static String CODIGO = "codigo";
-	public static String NOMBRE = "nombre";
-	public static String APELLIDOS = "apellidos";
-	public static String SEXO = "sexo";
-	public static String FECHANACIMIENTO = "fechaNacimiento";
-	public static String CENTRO = "centro";*/
 
 	private float codigo;
 	private String nombre;

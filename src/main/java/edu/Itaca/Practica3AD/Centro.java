@@ -3,12 +3,6 @@ package edu.Itaca.Practica3AD;
 import java.util.List;
 
 public class Centro {
-	/*public static final String CODIGO = "codigo";
-	public static final String NOMBRE = "nombre";
-	public static final String DIRECTOR = "director";
-	public static final String DIRECCION = "direccion";
-	public static final String LOCALIDAD = "localidad";
-	public static final String PROVINCIA = "provincia";*/
 
 	private float codigo;
 	private String nombre;
